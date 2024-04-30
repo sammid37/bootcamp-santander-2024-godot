@@ -1,3 +1,8 @@
+// Bootcamp Santander 2024 - Desenvolvimento de Jogos em Godot
+// Desafio do Felipão da DIO
+// Hankeada de Heróis
+// Samantha D. Medeiros, maio de 2024
+
 import java.util.Map;
 import java.util.HashMap;
 import java.util.Scanner;
