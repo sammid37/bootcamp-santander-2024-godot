@@ -8,6 +8,7 @@ import java.util.HashMap;
 import java.util.Scanner;
 import java.util.InputMismatchException;
 
+// FIXME: consertar método 
 public class ClassificadorHerois {
   private static final Map<Integer, String> niveisPoder = new HashMap<>();
   static {
@@ -29,7 +30,7 @@ public class ClassificadorHerois {
   public static String classificacaoPoder(String nomeHeroi, int xp) {
     for (int xpLimite : niveisPoder.keySet()) {
       if (xp <= xpLimite) {
-        return "O Herói de nome " + nomeHeroi + " está no nível " + niveis.get(xpLimite) + "!";
+        return "O Herói de nome " + nomeHeroi + " está no nível " + niveisPoder.get(xpLimite) + "!";
       }
     }
     return "O Herói de nome " + nomeHeroi + " está no nível Radiante!";
